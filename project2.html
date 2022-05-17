@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitnessFreak- The best fitness gym in the town</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="timer.js"></script>
+    <link rel="stylesheet" href="utils.css">
+</head>
+
+<body class='body1 overflow-x-hidden'>
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-blue">Fitness Freak</div>
+                <ul class="navbar flex items-center">
+                    <li> <a href="#Home">Home</a> </li>
+                    <li> <a href="#About">About</a> </li>
+                    <li><a href="#Services">Services</a></li>
+                    <li> <a href="#Contact">Contact Us</a></li>
+                    <li><button class="btn">Join Now</button></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <div class=" text-center">
+                            <img class="dumbellimg" src="dumbell.png" alt="">
+                        </div>
+                        <h1 class="my-1 text-center">The best fitness Gym in the town is here</h1>
+                        <p class=" text-center">A healthy body and mind are essential to achieve complete wellbeing. If we are healthy, we can resist our bodies from being attacked by germs. Our bodies are really sensitive and therefore, must be handled with necessary precautions. We can develop healthy habits like eating and sleeping on time to boost our overall health.</p>
+                        <!-- Display the countdown timer in an element -->
+                        <p class="deal text-center">The deal ends in <span id="demo"></span></p>
+                        <div class="buttons">
+                            <button class="btn">Join now</button>
+                            <button class="btn">Contact Us</button>
+                        </div>
+                    </div>
+                    <div class="topright flex justify-center">
+                        <img class="gymimg" src="gym.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section2">
+                <h1 class="text-center my-2">Pricing</h1>
+                <p class="my-2">If you are a gym that also sells weights or fitness products, Instagram has a great feature where you can shop from the post itself. The trick here is to take photos that fit in with the rest of your feed so it doesn’t look too out of place or like an ad - as this might put people off. </p>
+                <div class="boxes flex justify-center">
+                    <div class="box">
+                        <h2>Free</h2>
+                        <ul>
+                            <li class="highlighted">₹0/month</li>
+                            <li>0 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Pro</h2>
+                        <ul>
+                            <li class="highlighted">₹150/month</li>
+                            <li>10 users included</li>
+                            <li>20 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Enterprise</h2>
+                        <ul>
+                            <li class="highlighted">₹500/month</li>
+                            <li>50 users included</li>
+                            <li>100 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+            <hr>
+            <section class="section3">
+                <h1 class="text-center my-2">Compare Plans</h1>
+                <div class="container plantable">
+                    <table class="table text-center">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Free</th>
+                                <th>Pro</th>
+                                <th>Enterprise</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="text-start">Public</th>
+                                <td>Yes</svg></td>
+                                <td>Yes</svg></td>
+                                <td>Yes</svg></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Private</th>
+                                <td>-</td>
+                                <td>Yes</svg></td>
+                                <td>Yes</svg></td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="text-start">Permissions</th>
+                                <td>Yes</svg></td>
+                                <td>Yes</svg></td>
+                                <td>Yes</svg></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Sharing</th>
+                                <td>-</td>
+                                <td>Yes</svg></td>
+                                <td>Yes</svg></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Unlimited members</th>
+                                <td>-</td>
+                                <td>Yes</svg></td>
+                                <td>Yes</svg></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Extra security</th>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>Yes</svg></td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </section>
+            <hr>
+        </main>
+        <footer>
+            Copyright &copy; Fitness-Freak.com | All rights reserved
+        </footer>
+
+    </div>
+</body>
+
+</html>
